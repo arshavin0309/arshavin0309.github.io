@@ -1,3 +1,7 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../node_modules/swiper/swiper-bundle';
+@import '../scss/keyframes';
+
 :root {
     --black: #292929;
     --white: #fff;
@@ -15,7 +19,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding-top: 80px;
-    background: url(../img/body-bg.jpg) center / cover no-repeat;
+    background: url(../images/body-bg.jpg) center / cover no-repeat;
     color: var(--white);
 }
 
@@ -79,3 +83,9 @@ header a {
 h1 {
     font-size: 80px;
 }
+
+@import '../scss/_min1000';
+@import '../scss/_1200';
+@import '../scss/_992';
+@import '../scss/_768';
+@import '../scss/_500';
